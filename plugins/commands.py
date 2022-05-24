@@ -44,11 +44,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('ᴘᴏᴡᴇʀᴅ ʙʏ', url='https://t.me/space4cinemas'), 
+            InlineKeyboardButton('ᴘᴏᴡᴇʀᴇᴅ ʙʏ', url='https://t.me/space4cinemas'), 
             InlineKeyboardButton('➡️ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ⬅️', url='https://t.me/space_4_movies')
             ],[      
-            InlineKeyboardButton('𝙷𝙴𝙻𝙿', callback_data='help'),
-            InlineKeyboardButton('𝙰𝙱𝙾𝚄𝚃😎', callback_data='about')
+            InlineKeyboardButton('MORE', callback_data='help'),
+            InlineKeyboardButton('ABOUT😎', callback_data='about')
         ]]  
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action("Typing")
@@ -89,11 +89,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('ᴘᴏᴡᴇʀᴅ ʙʏ', url='https://t.me/space4cinemas'), 
+            InlineKeyboardButton('ᴘᴏᴡᴇʀᴇᴅ ʙʏ', url='https://t.me/space4cinemas'), 
             InlineKeyboardButton('➡️ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ⬅️', url='https://t.me/space_4_movies')
             ],[      
-            InlineKeyboardButton('𝙷𝙴𝙻𝙿', callback_data='help'),
-            InlineKeyboardButton('𝙰𝙱𝙾𝚄𝚃😎', callback_data='about')
+            InlineKeyboardButton('MORE', callback_data='help'),
+            InlineKeyboardButton('ABOUT😎', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action("Typing")
