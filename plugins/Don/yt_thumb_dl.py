@@ -8,7 +8,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 @Client.on_message(filters.command(["ytthumb", 'dlthumb']))
 async def send_thumbnail(bot, update):
     message = await update.reply_text(
-        text="`𝙂𝙚𝙣𝙚𝙧𝙖𝙩𝙞𝙣𝙜 𝙏𝙝𝙪𝙢𝙗𝙣𝙖𝙞𝙡 𝙊𝙛 𝙔𝙤𝙪𝙧 𝙇𝙞𝙣𝙠...`",
+        text="`ɢᴇɴᴇʀᴀᴛɪɴɢ ᴛʜᴜᴍʙɴᴀɪʟ...`",
         disable_web_page_preview=True,
         quote=True
     )
