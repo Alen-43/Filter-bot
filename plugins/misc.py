@@ -70,7 +70,6 @@ async def aboutme(client, message):
             photo=random.choice(PICS),
             caption=script.ABOUT_TXT.format(message.from_user.mention),
             reply_markup=reply_markup,
-            parse_mode='html'
         )
 
 @Client.on_message(filters.command(["info"]))
@@ -128,7 +127,6 @@ async def who_is(client, message):
             quote=True,
             reply_markup=reply_markup,
             caption=message_out_str,
-            parse_mode="html",
             disable_notification=True
         )
         os.remove(local_user_photo)
@@ -141,7 +139,6 @@ async def who_is(client, message):
             text=message_out_str,
             reply_markup=reply_markup,
             quote=True,
-            parse_mode="html",
             disable_notification=True
         )
     await status_message.delete()
@@ -191,8 +188,7 @@ async def help(client, message):
         await message.reply_photo(
             photo=random.choice(PICS),
             caption=script.HELP_TXT.format(message.from_user.mention),
-            reply_markup=reply_markup,
-            parse_mode='html'
+            reply_markup=reply_markup
         )
 
 
