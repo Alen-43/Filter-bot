@@ -159,7 +159,7 @@ async def help(client, message):
             ],[
             InlineKeyboardButton('ᴇxᴛʀᴀ', callback_data='extra')
             ],[
-            InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴘʜ', callback_data='pin'), 
+            InlineKeyboardButton('ᴘɪɴ', callback_data='pin'), 
             InlineKeyboardButton('ᴘᴀsᴛᴇ', callback_data='pastes'),
             InlineKeyboardButton("ɪᴍᴀɢᴇ", callback_data='image')
             ],[
